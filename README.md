@@ -37,19 +37,12 @@ git clone https://github.com/your-username/healthcare-dlt-pipeline.git
 cd healthcare-dlt-pipeline
 ```
 
-### **2⃣ Install Dependencies**  
-If using Databricks, packages like **Delta Live Tables** and **PySpark** are pre-installed.  
-For local testing, install PySpark:  
-```bash
-pip install pyspark delta-spark
-```
-
-### **3⃣ Upload to Databricks**  
+### **2⃣ Upload to Databricks**  
 - Create a **Databricks Notebook**.  
 - Upload the scripts from the **notebooks/** folder.  
 - Configure a **Delta Live Table pipeline** in Databricks.  
 
-### **4⃣ Run the DLT Pipeline**  
+### **3⃣ Run the DLT Pipeline**  
 - Navigate to **Workflows → Delta Live Tables** in Databricks.  
 - Create a new pipeline and attach the **Bronze, Silver, and Gold notebooks**.  
 - Click **Start** to process data in real time.  
