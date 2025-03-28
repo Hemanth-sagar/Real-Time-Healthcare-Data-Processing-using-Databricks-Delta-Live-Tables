@@ -18,15 +18,17 @@ This project implements a **real-time data processing pipeline** for healthcare 
 
 ## **📂 Project Structure**  
 ```
-💃 healthcare-dlt-pipeline
- ┣ 💃 notebooks/
- ┃ ┣ 💃 01_bronze_layer.py
- ┃ ┣ 💃 02_silver_layer.py
- ┃ ┣ 💃 03_gold_layer.py
- ┣ 💃 data/               # Sample input data files
- ┣ 💃 scripts/            # Helper scripts
- ┣ 💃 README.md           # Project documentation
- ┣ 💃 requirements.txt     # Dependencies
+💃 ETL Pipeline
+ ┣ 💃 Code/
+ ┃ ┣ 💃 healthcare_dlt_pipeline_notebook.sql
+ ┃ ┣ 💃 spark_code_to_feed_tables.ipynb
+ ┣ 💃 DLT Workflow.png         # Workflow diagram
+ ┣ 💃 data/                    # Sample input data files
+ ┃ ┣ 💃 diagnosis_mapping.csv
+ ┃ ┣ 💃 patients_daily_file_1_2024.csv
+ ┃ ┣ 💃 patients_daily_file_2_2024.csv
+ ┃ ┣ 💃 patients_daily_file_3_2024.csv
+ ┣ 💃 README.md                # Project documentation
 ```
 
 ## **⚙️ Setup Instructions**  
